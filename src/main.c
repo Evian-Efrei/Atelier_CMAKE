@@ -13,6 +13,7 @@ int main(int argc, char *argv[]){
 		r = _sqa(atof(a));
 		printf("%lf",r);
 	}	
+	else {printf("Erreur de parametres");}
 	}
 		
 	if (argc == 4)
@@ -39,7 +40,6 @@ int main(int argc, char *argv[]){
 	}
 	else {printf("Erreur de parametres");}
 	}
-	else {printf("Erreur de parametres");}
 	return 0;
 }
 
