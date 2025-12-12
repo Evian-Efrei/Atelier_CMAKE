@@ -110,8 +110,8 @@ jobs:
         run: |
           cd build
           set -e
-          echo "== Test sqa 10 5 ==" > report_sqa.txt
-          ./src/calculator sqa 10 5 | tee -a report_sqa.txt
+          echo "== Test sqa 5 ==" > report_sqa.txt
+          ./src/calculator sqa 5 | tee -a report_sqa.txt
           echo "Exit code: $?" >> report_sqa.txt
  
       - name: Upload report as artifact
