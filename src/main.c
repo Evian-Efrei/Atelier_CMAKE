@@ -13,6 +13,7 @@ int main(int argc, char *argv[]){
 		r = _sqa(atof(a));
 		printf("%lf",r);
 	}	
+	}
 		
 	if (argc == 4)
 	{
