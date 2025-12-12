@@ -9,7 +9,11 @@ int main(int argc, char *argv[]){
 	char* op = argv[1];
 	char* a = argv[2];
 	double r = 0;
-	}
+	if (strcmp(op, "sqa") == 0) {
+		r = _sqa(atof(a));
+		printf("%lf",r);
+	}	
+		
 	if (argc == 4)
 	{
 	char* op = argv[1];
@@ -32,10 +36,6 @@ int main(int argc, char *argv[]){
 		r = _div(atof(a), atof(b));
 		printf("%lf",r);
 	}
-	else if (strcmp(op, "sqa") == 0) {
-		r = _sqa(atof(a));
-		printf("%lf",r);
-	}	
 	else {printf("Erreur de parametres");}
 	}
 	else {printf("Erreur de parametres");}
