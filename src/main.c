@@ -9,6 +9,7 @@ int main(int argc, char *argv[]){
 	char* op = argv[1];
 	char* a = argv[2];
 	double r = 0;
+	}
 	if (argc == 4)
 	{
 	char* op = argv[1];
